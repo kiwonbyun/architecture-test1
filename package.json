@@ -1,0 +1,12 @@
+{
+  "name": "mono-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --parallel --filter=@packages/ui --filter=@packages/core --filter=@services/oms --filter=@services/tms --filter=@services/wms --filter=website dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
